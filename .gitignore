@@ -1,0 +1,45 @@
+# Dependencies
+node_modules/
+package-lock.json
+yarn.lock
+
+# Environment Variables
+.env
+.env.local
+.env.*.local
+
+# Playwright & Test Outputs
+playwright-report/
+test-results/
+screenshots/
+allure-results/
+coverage/
+json-test-report.json
+junit-test-report.xml
+
+# Build & Dist
+dist/
+build/
+*.tsbuildinfo
+
+# IDE & Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+
+# Cache
+.eslintcache
+.nyc_output/
+.cache/
+
+# OS
+Thumbs.db
